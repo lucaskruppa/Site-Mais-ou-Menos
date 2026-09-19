@@ -20,7 +20,7 @@ header {
     border-radius: 8px;
 }
 
-header h3 a {
+header h1 a {
     color: #ffffff;
     text-decoration: none;
     font-size: 26px;
@@ -104,22 +104,6 @@ main {
 .card li {
     padding: 4px 0;
     font-size: 15px;
-}
-
-/* ===== Botão de destaque (id específico) ===== */
-#destaque .botao {
-    display: inline-block;
-    margin-top: 15px;
-    background-color: #4a5cc9;
-    color: #5fa8d3;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 15px;
-}
-
-#destaque .botao:hover {
-    background-color: #313f9c;
 }
 
 iframe {

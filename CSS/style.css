@@ -6,15 +6,18 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #bee9e8;
     color: #333333;
 }
 
 header {
     background-color: #4a5cc9;
+    border: 2px solid #1b4965;
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    margin: 20px;
+    border-radius: 8px;
 }
 
 header h3 a {
@@ -52,8 +55,85 @@ main {
     padding: 0 20px;
 }
 
+.card {
+    background-color: #62b6cb;
+    border: 2px solid #1b4965;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.card h2 {
+    color: #4a5cc9;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.card h3 {
+    color: #4a5cc9;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card h4 {
+    margin-top: 12px;
+    font-size: 15px;
+    color: #555555;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.card img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+.card ul {
+    list-style: none;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.card li {
+    padding: 4px 0;
+    font-size: 15px;
+}
+
+/* ===== Botão de destaque (id específico) ===== */
+#destaque .botao {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #4a5cc9;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#destaque .botao:hover {
+    background-color: #313f9c;
+}
+
+iframe {
+    width: 100%;
+    max-width: 420px;
+    height: 236px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
 footer {
     background-color: #313f9c;
+    border: 2px solid #1b4965;
     color: #ffffff;
     text-align: center;
     padding: 15px;
